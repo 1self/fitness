@@ -1,0 +1,200 @@
+html, body, .fullHeight {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    background: #343838;
+    color: #84c341;
+    font-family: "raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    background: #30363e;
+    font-size: 1.5em;
+    padding-right: 0;
+    padding-left: 0;
+    color: #84c341;
+}
+
+.spacer {
+    padding: 0.5em 0.2em;
+}
+
+
+
+html, body, .fullHeight {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    background: #343838;
+    color: #84c341;
+    font-family: "raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 100%;
+    background: #30363e;
+    font-size: 1.5em;
+    padding-right: 0;
+    padding-left: 0;
+    color: #ddcc19;
+}
+
+.spacer {
+    padding: 0.5em 0.2em;
+}
+
+.heading {
+    background: #30363e;
+    color: #ddcc19;
+    text-align: center;
+    width: 100%;
+    font-size: 1.8em;
+    font-weight: 400;
+    padding: 0.5em 0em 0.7em 0em;
+    letter-spacing: 0.04em;
+}
+
+input {
+    width: 100%;
+    margin: auto;
+    height: 50px;
+}
+
+.log {
+    border-radius: 16px;
+    padding: 3%;
+    margin: 3% 30%;
+    width: 37%;
+    background-color: #ddcc19;
+    color: #fff;
+    border-width: 0px;
+    font-size: 0.8em;
+}
+
+.log-btn-small {
+    border-radius: 8px;
+    padding: 3%;
+    width: 95%;
+    background-color: #ddcc19;
+    color: #fff;
+    border-width: 0px;
+    font-size: 0.8em;
+    height: 50px;
+}
+
+.log:disabled {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad;
+}
+
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.table {
+	display: table;
+}
+
+.vmiddle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.activityHeader {
+	text-align: left;
+}
+.activityLabel {
+    margin: 0.1em;
+    font-size: medium;
+}
+
+.footer {
+    position: fixed;
+    bottom: 1%;
+    width: 100%;
+}
+
+#pendingEvents {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links {
+    width: 4em;
+    overflow: hidden;
+    font-size: 16px;
+    margin: auto 0em;
+}
+
+.nav-icon {
+    font-size: 1.6em;
+}
+
+.validation-error {
+    border: 3px solid red;
+}
+
+.footer-element-container {
+    width: 6em;
+    margin: 0 auto;
+}
+
+.graphButton {
+    background: #ddcc19;
+    border-radius: 16px;
+    padding: 0.4em 1em;
+    border-width: 0px;
+    border-color: #cdd1dc ;
+    border-style: solid;
+    margin: 0.4em 1em;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.footer{
+    background: #30363e ;
+    padding: 0.4em 0em 0.3em 0em;
+    border-color: #cdd1dc ;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    bottom: 0%;
+}
+
+.spacer, .logsection {
+    width: 100%;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 2px 0px 0px 0px;
+    text-align: center;
+}
+
+#pending-events{
+    margin-top: 0.2em;
+    width: 50%;
+}
+
+#displaySelectVizTemplate{
+    margin-left: 1.5em;
+    margin-right: -0.5em;
+}
+
+.logActivityTemplate{
+    margin-top: -0.6em;
+}
+
+#logActivity{
+    margin-top: 0.8em;
+}
+
+

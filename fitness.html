@@ -1,0 +1,123 @@
+<head>
+  <title>fitness</title>
+  <script src="client/1self.js" type="javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=0"/>
+</head>
+
+<body>
+  <div class="heading">1self Fitness</div>
+<div class="container fullHeight">
+    <div class="logActivityTemplate fullHeight">
+        {{> logging}}
+    </div>
+    <div class="showVizTemplate fullHeight" style="display: none;">
+        {{> selectVisualizations}}
+    </div>
+</div>
+
+
+</body>
+
+
+<template name="logging">
+    <div class="row spacer">
+        <div class="col-xs-12 col-sm-12 col-lg-12 activityHeader">
+    		Press ups
+    	</div>
+    </div>
+    <div class="row table">
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <div id="pressup" class="activityLabel">How many?</div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <div class="logvalue">
+                <input type="number" name="pressup"/>
+            </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <button id="logPressups" class="btn-default log-btn-small">Log it!</button>
+        </div>
+    </div>
+
+    <div class="row spacer">
+        <div class="col-xs-12 col-sm-12 col-lg-12 activityHeader">
+    		Chin ups
+    	</div>
+    </div>
+    <div class="row table">
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <div id="chinup" class="activityLabel">How many?</div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <div class="logvalue">
+                <input type="number" name="chinup"/>
+            </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <button id="logChinups" class="btn-default log-btn-small">Log it!</button>
+        </div>
+    </div>
+
+    <div class="row spacer">
+        <div class="col-xs-12 col-sm-12 col-lg-12 activityHeader">
+    		Bird dogs
+    	</div>
+    </div>
+    <div class="row table">
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <div id="birddog" class="activityLabel">How many?</div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <div class="logvalue">
+                <input type="number" name="birddog"/>
+            </div>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-lg-4 vmiddle">
+            <button id="logBirddogs" class="btn-default log-btn-small">Log it!</button>
+        </div>
+    </div>
+
+    <div class="logsection">
+        <button id="logStretching" class="btn-default log">Done stretching!</button>
+    </div>
+    {{> footer}}
+</template>
+
+
+<template name="selectVisualizations">
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-lg-12">
+            <div id="pressupViz" class="graphButton">View press-up stats</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-lg-12">
+            <div id="chinupViz" class="graphButton">View chin-up stats</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-lg-12">
+            <div id="birddogViz" class="graphButton">View bird-dog stats</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-8 col-lg-12">
+            <div id="stretchingViz" class="graphButton">View stretching stats</div>
+        </div>
+    </div>
+    {{> footer}}
+</template>
+
+<template name="footer">
+    <div class="footer">
+        <div class="row footer-element-container">
+            <div id="displayLogActivityTemplate" class="nav-links col-xs-2 col-sm-2 col-lg-2">
+                <div class="nav-icon glyphicon glyphicon-record"></div>
+            </div>
+            <div id="displaySelectVizTemplate" class="nav-links col-xs-2 col-sm-2 col-lg-2">
+                <div class="nav-icon glyphicon glyphicon-signal"></div>
+            </div>
+        </div>
+    </div>
+</template>
